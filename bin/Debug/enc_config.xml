@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<encrypt>
+    <src>我的IdsConfig.jar</src>
+    <dst>IdsConfigEnc.jar</dst>
+    <!--<files loadall="true" />-->
+    <!--<files>-->
+        <!--<file type="package">com.ids.config</file>-->
+        <!--<file type="package">com.ids.copy</file>-->
+        <!--<file type="package">com.ids.param</file>-->
+        <!--<file type="package">com.ids.shell</file>-->
+        <!--<file type="xml">com.ids.syslog</file>-->
+        <!--<file type="txt">com.ids</file>-->
+    <!--</files>-->
+    <files loadall="true">
+        <file type="package">com.ids.config</file>
+        <file type="package">com.ids.copy</file>
+        <file type="package">com.ids.param</file>
+        <file type="package">com.ids.shell</file>
+        <file type="package">com.ids.syslog</file>
+        <file type="package">com.ids</file>
+    </files>
+</encrypt>

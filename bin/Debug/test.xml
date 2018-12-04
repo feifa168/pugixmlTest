@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<encrypt>
+  <src>src.jar</src>
+  <dst>src.jar</dst>
+  <files loadall="true">
+    <file type="package">com.ids.config</file>
+    <file type="package">com.ids.copy</file>
+    <file type="package">com.ids.param</file>
+    <file type="package">com.ids.shell</file>
+    <file type="package">com.ids.syslog</file>
+    <file type="package">com.ids</file>
+  </files>
+</encrypt>
